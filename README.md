@@ -1,6 +1,6 @@
 # Installation instructions
 
-git clone --bare <git-repo-here> $HOME/dotfiles
+git clone --bare git-repo-url $HOME/dotfiles
 
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 

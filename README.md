@@ -10,7 +10,7 @@ config checkout
 
 # initialization text file
 
-git clone --bare https://github.com/phil-s-brown/dotfiles.git $HOME/.cfg
+git clone --bare https://github.com/ad07015/dotfiles.git $HOME/.cfg
 function config {
    /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
 }

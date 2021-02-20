@@ -10,4 +10,4 @@ config checkout
 
 # Initialization text file
 
-curl -Lks http://bit.ly/ad07015-dotfiles-init | /bin/bash
+curl -Lks http://bit.do/ad07015-dotfiles-initialize | /bin/bash

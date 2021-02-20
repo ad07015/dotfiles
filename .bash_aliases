@@ -14,6 +14,7 @@ alias j='jobs -l' # Current running jobs
 # ———————————————–
 
 alias ll='ls -l'
+alias la='ls -la'
 alias lx='ls -lXB' # Sort by extension
 alias lk='ls -lSr' # Sort by size (small to big)
 alias lc='ls -ltcr' # Sort by change time (old to new)

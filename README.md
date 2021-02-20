@@ -10,6 +10,7 @@ config checkout
 
 # initialization text file
 
+```
 git clone --bare https://github.com/ad07015/dotfiles.git $HOME/.cfg
 function config {
    /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
@@ -24,3 +25,4 @@ if [ $? = 0 ]; then
 fi;
 config checkout
 config config status.showUntrackedFiles no
+```

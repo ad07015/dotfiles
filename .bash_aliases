@@ -36,3 +36,22 @@ alias go='git checkout '
 alias gm='git merge '
 alias glog='git log'
 alias glogp='git log --pretty=format:"%h %s" --graph'
+
+#
+# unimatrix
+#
+
+alias um='unimatrix -a -s 90'
+
+#
+# bare dotfiles git repository control
+#
+
+alias cfgs='cfg status '
+alias cfgss='cfg status -s'
+alias cfga='cfg add '
+alias cfgb='cfg branch '
+alias cfgc='cfg commit'
+alias cfgd='cfg diff'
+alias cffgo='cfg checkout '
+alias cfg='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'

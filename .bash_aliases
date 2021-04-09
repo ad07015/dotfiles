@@ -13,6 +13,8 @@ alias j='jobs -l' # Current running jobs
 # ls
 # ———————————————–
 
+alias ls='lsd'
+alias lst='ls --tree'
 alias ll='ls -l'
 alias la='ls -la'
 alias lx='ls -lXB' # Sort by extension

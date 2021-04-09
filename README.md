@@ -11,3 +11,7 @@ config checkout
 # Initialization text file
 
 curl -Lks http://bit.do/ad07015-dotfiles-initialize | /bin/bash
+
+# Package requirements
+
+lsd

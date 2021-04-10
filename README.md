@@ -15,8 +15,13 @@ curl -Lks http://bit.do/ad07015-dotfiles-initialize | /bin/bash
 # Package requirements
 
 lxappearance
+
 qt5ct
+
 breeze-icons (AUR)
+
 arc-gtk-theme
+
 arc-solid-gtk-theme
+
 lsd

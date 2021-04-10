@@ -14,6 +14,8 @@ curl -Lks http://bit.do/ad07015-dotfiles-initialize | /bin/bash
 
 # Package requirements
 
+xdotool (clickable xmonad workspaces)
+
 lxappearance
 
 qt5ct

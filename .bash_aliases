@@ -13,7 +13,6 @@ alias j='jobs -l' # Current running jobs
 # ls
 # ———————————————–
 
-alias ls='lsd'
 alias lst='ls --tree'
 alias ll='ls -l'
 alias la='ls -la'
@@ -38,6 +37,16 @@ alias go='git checkout '
 alias gm='git merge '
 alias glog='git log'
 alias glogp='git log --pretty=format:"%h %s" --graph'
+
+#
+# maven
+#
+
+alias mcc='mvn clean compile'
+alias mcp='mvn clean package'
+alias mci='mvn clean install'
+alias mcipit='mvn clean install -Pit'
+alias mciupit='mvn clean install -U -Pit'
 
 #
 # unimatrix

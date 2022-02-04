@@ -36,6 +36,7 @@ alias gd='git diff'
 alias go='git checkout '
 alias gm='git merge '
 alias glog='git log'
+alias glo='git log --oneline'
 alias glogp='git log --pretty=format:"%h %s" --graph'
 
 #
@@ -47,6 +48,7 @@ alias mcp='mvn clean package'
 alias mci='mvn clean install'
 alias mcipit='mvn clean install -Pit'
 alias mciupit='mvn clean install -U -Pit'
+alias mcist='mvn clean install -DskipTests -U'
 
 #
 # unimatrix
